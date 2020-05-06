@@ -46,6 +46,13 @@ h6 {
 .viewed img {
   margin-top: 10%;
 }
+.scroll {
+  position: relative;
+  width: 20px;
+  margin-left: 48%;
+  height: 2px;
+  margin-top: -1%;
+}
 .subash-scroll {
   position: absolute;
   width: 20px;
@@ -108,14 +115,8 @@ h6 {
     opacity: 1;
   }
 }
-.scroll {
-  position: relative;
-  width: 20px;
-  margin-left: 48%;
-  height: 2px;
-  margin-top: -80px;
-}
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 767.98px) {
   .navbar {
     background-color: #312a5b;
   }
@@ -141,8 +142,15 @@ h6 {
     font-size: 40px !important;
     font-weight: 700;
   }
+  .scroll {
+    position: relative;
+    width: 20px;
+    margin-left: 48%;
+    height: 2px;
+    margin-top: -25%;
+  }
 }
-@media only screen and (max-width: 598px) {
+@media only screen and (max-width: 575.98px) {
   .navbar {
     background-color: #312a5b;
   }
@@ -173,10 +181,10 @@ h6 {
     font-weight: 700;
   }
   .scroll {
-  position: relative;
-  width: 20px;
-  margin-left: 48%;
-  height: 2px;
-  margin-top: -20%px;
-}
+    position: relative;
+    width: 20px;
+    margin-left: 48%;
+    height: 2px;
+    margin-top: 30%;
+  }
 }
