@@ -172,4 +172,11 @@ h6 {
     font-size: 30px !important;
     font-weight: 700;
   }
+  .scroll {
+  position: relative;
+  width: 20px;
+  margin-left: 48%;
+  height: 2px;
+  margin-top: -20%px;
+}
 }
