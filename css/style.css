@@ -3,7 +3,7 @@ body {
   /* background-image: url("./././.././images/backgroundimages.jpg");
   background-size: cover; */
   margin-top: 20px;
-  height: 500vh;
+  height: 100vh;
   overflow-y: scroll;
   background-color: #312a5b;
 }
