@@ -168,6 +168,10 @@ h6 {
   .navbar {
     background-color: #312a5b;
   }
+  .viewed {
+  
+  height: 97vh;
+}
   #home {
     margin-top: 62%;
     padding-top: 0%;
