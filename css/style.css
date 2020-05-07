@@ -183,7 +183,7 @@ h6 {
     margin-left: 8%;
   }
   .viewed img {
-    margin-top: 10%;
+    margin-top: -100%;
   }
   #home h1,
   h3,
@@ -204,7 +204,7 @@ h6 {
     height: 2px;
     margin-top: 56%;
   }
-  #blog h1{
+  h1{
   font-size:15px;
   }
 }
