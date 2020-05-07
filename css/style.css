@@ -4,6 +4,10 @@ body {
   margin: 0px !important;
   padding: 0px !important;
 }
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 body {
   /* position: relativa; */
   /* background-image: url("./././.././images/backgroundimages.jpg");
