@@ -169,7 +169,7 @@ h6 {
     background-color: #312a5b;
   }
   #home {
-    margin-top: 25%;
+    margin-top: 41%;
     padding-top: 35%;
     /* position: absolute; */
     color: white;
@@ -202,9 +202,9 @@ h6 {
     width: 20px;
     margin-left: 48%;
     height: 2px;
-    margin-top: 30%;
+    margin-top: 56%;
   }
-  #skill h1{
+  #blog h1{
   font-size:30px;
   }
 }
