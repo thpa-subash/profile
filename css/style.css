@@ -169,7 +169,7 @@ h6 {
     background-color: #312a5b;
   }
   #home {
-    margin-top: 41%;
+    margin-top: 30%;
     padding-top: 35%;
     /* position: absolute; */
     color: white;
@@ -205,6 +205,6 @@ h6 {
     margin-top: 56%;
   }
   #blog h1{
-  font-size:30px;
+  font-size:15px;
   }
 }
