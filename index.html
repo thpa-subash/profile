@@ -22,14 +22,16 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <style>
+    body{
+      width:100%;
+    }
     p{ text-align: justify !important;
   text-justify: inter-word !important;}
-  .error{
-    margin-top:100px;
-  }</style>
-  <body data-spy="scroll" data-target="#navbar-slide" class="justify-content-center">
+  </style>
+  <body data-spy="scroll"data-target="#navbar-slide">
     <!-- navbar starts -->
-    <nav id="navbar-slide" class="navbar navbar-light fixed-top">
+    <section >
+    <nav id="navbar-slide" class="navbar navbar-light fixed-top" style="border:1px solid green;">
       <a class="navbar-brand" href="#">#LOGO</a>
       <ul class="nav nav-pills">
         <li class="nav-item active">
@@ -51,20 +53,21 @@
        
         </li>
       </ul>
-    </nav><!-- navbar ends -->
+    </nav>
+  </section><!-- navbar ends -->
     <!-- home section starts -->
     <section id="homes" style="border:1px solid red;">
-      <div class="container-fluid viewed">
+      <div class="container viewed">
         <div class="row">
           
-          <div id="home" class="col-lg-6 col-md-6 col-sm-12 " data-aos="fade-right">
+          <div id="home" class="col-lg-6 col-md-6" data-aos="fade-right">
             <h3 class="mr-auto">Hello I'm </h3>
             <h1 class="mr-auto " >Subash Thapa</h1>
             <h6 class="mr-auto ">A Freelance UI/UX Designer</h6>
             <button type="button" class="btn btn-outline-info btn-rounded waves-effect" data-aos="fade-left">EXPLORE ME</button>
             <button type="button" class="btn btn-outline-default btn-rounded waves-effect" data-aos="fade-left">HIRE ME</button>
           </div>
-          <div class=" col-lg-6 col-md-6 col-sm-12  ml-auto ">
+          <div class=" col-lg-6 col-md-6">
             <img  class="img-fluid " src="images/undraw_a_moment_to_relax_bbpa.svg">
           
           
@@ -75,8 +78,10 @@
         <div class="subash-scroll"></div>
         <div class="subash-scroll"></div>
         <div class="subash-scroll"></div>
-       </div></a>
+       </a>
         
+      </div>
+      </div>
       </div>
     </section>
     <!-- home section ends -->
@@ -90,7 +95,7 @@
           <h6 class="text-center ml-auto" style="font-size:12px">WHAT I CAN DO</h6>
           <h1 class="text-center mb-5">SPECILIZING IN</h1>
         </div><br><br>
-        <div class="col-lg-5 col-md-6 col-12 mt-4 mb-5" >
+        <div class="col-lg-5 col-md-6 col-sm-12 mt-4 mb-5" >
           <ul class="list-group list-group-flush">
             <li class="list-group-item " data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">
               <i class="fas fa-laptop mr-2 pr-2"></i> <span>UI/UX DESIGNER</span>
@@ -115,7 +120,7 @@
           </ul>
         
         </div>
-        <div class="col-lg-5 col-md-6 col-12 mt-4 mb-5">
+        <div class="col-lg-5 col-md-6 col-sm-12 mt-4 mb-5">
           <ul class="list-group list-group-flush">
             <li class="list-group-item" data-aos="fade-left" data-aos-offset="100" data-aos-easing="ease-in-sine">
               <i class="fas fa-baseball-ball mr-2 pr-3"></i><span>SPORTS</span>
