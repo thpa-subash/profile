@@ -3,14 +3,11 @@ body {
   /* background-image: url("./././.././images/backgroundimages.jpg");
   background-size: cover; */
   margin-top: 20px;
-  height: 100vh;
+  
   overflow-y: scroll;
   background-color: #312a5b;
 }
-navbar images icon .navbar.navbar-2 .navbar-toggler-icon {
-  background-color: #312a5b;
-  background-image: url("https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff");
-}
+
 .navbar,
 .viewed,
 footer {
@@ -180,6 +177,8 @@ h6 {
     font-size: 30px !important;
     font-weight: 700;
   }
+  body nav{
+  font-size:10px;}
   .scroll {
     position: relative;
     width: 20px;
